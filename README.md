@@ -29,14 +29,7 @@ This project is designed for **speed**, **simplicity**, and **compatibility**, a
 - 🔒 Input validation (only alphanumeric paste codes allowed)
 - ⚡ Fast loading with deferred scripts and lazy CSS
 - 🌐 Fully responsive & mobile-friendly layout
-
 ---
-
-## 📁 Folder Structure
-
-
----
-
 ## 🧩 Technical Details
 
 ### 🔹 Paste Handling
@@ -45,22 +38,16 @@ Each paste is saved as a JSON file in `/pastes/` folder with a unique code:
 $file = "pastes/$code.json";
 if (!preg_match('/^[a-zA-Z0-9]{1,12}$/', $code)) { die("Invalid Code"); }
 ---
-
 👨‍💻 Maintainer
-
-Author: Auriga (@hf_owner
-)
+Author: Auriga (@hf_owner)
 Project Type: Free & Educational (Non-commercial)
 Host: InfinityFree (Free Hosting)
-
 ---
 🪪 License
-
 This project is released under the MIT License.
 You are free to copy, modify, and redistribute this code, provided that:
-
 Credit remains to the original creator
-
 No illegal, malicious, or deceptive use occurs
+---
 
 © 2025 PasteShare.infy.uk – Lightweight Paste System for Everyone
