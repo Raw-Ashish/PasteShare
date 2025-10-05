@@ -46,25 +46,6 @@ $file = "pastes/$code.json";
 if (!preg_match('/^[a-zA-Z0-9]{1,12}$/', $code)) { die("Invalid Code"); }
 ---
 
-🔹 Ad Integration
-
-Monetag and Adsterra ads are deferred for faster load:
-
-<script defer src="//pairturnnumerous.com/6f4ca94babeddfb7669e670b8b570c3d/invoke.js"></script>
-
-A custom overlay with a 3-second timer displays ads or a banner message before redirecting.
-
----
-🔹 Performance Optimization
-
-All scripts are loaded with defer to reduce render-blocking
-
-CSS is preloaded with:
-
-<link rel="preload" href="/css/main.css" as="style" onload="this.rel='stylesheet'">
-
----
-
 👨‍💻 Maintainer
 
 Author: Auriga (@hf_owner
