@@ -44,6 +44,7 @@ Each paste is saved as a JSON file in `/pastes/` folder with a unique code:
 
 $file = "pastes/$code.json";
 if (!preg_match('/^[a-zA-Z0-9]{1,12}$/', $code)) { die("Invalid Code"); }
+---
 
 🔹 Ad Integration
 
@@ -51,9 +52,9 @@ Monetag and Adsterra ads are deferred for faster load:
 
 <script defer src="//pairturnnumerous.com/6f4ca94babeddfb7669e670b8b570c3d/invoke.js"></script>
 
-
 A custom overlay with a 3-second timer displays ads or a banner message before redirecting.
 
+---
 🔹 Performance Optimization
 
 All scripts are loaded with defer to reduce render-blocking
@@ -143,6 +144,7 @@ Author: Auriga (@hf_owner
 Project Type: Free & Educational (Non-commercial)
 Host: InfinityFree (Free Hosting)
 
+---
 🪪 License
 
 This project is released under the MIT License.
