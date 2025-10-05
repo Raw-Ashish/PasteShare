@@ -21,7 +21,7 @@ This project is designed for **speed**, **simplicity**, and **compatibility**, a
 ## ⚙️ Features
 
 - 🗂️ Save and view pastes with unique links (e.g. `/pastes/abc123.json`)
-- ⏳ Built-in 3-second verification overlay with custom banner and ad support
+- ⏳ Built-in 5-second verification overlay with custom banner and ad support
 - 💰 Supports **Monetag** and **Adsterra** ad codes
 - 📢 Custom banner text (e.g. “For ad inquiries, contact @hf_owner on Telegram”)
 - 💡 Lightweight HTML/CSS/JS — no frameworks, no dependencies
@@ -41,7 +41,7 @@ This project is designed for **speed**, **simplicity**, and **compatibility**, a
 
 ### 🔹 Paste Handling
 Each paste is saved as a JSON file in `/pastes/` folder with a unique code:
-```php
+
 $file = "pastes/$code.json";
 if (!preg_match('/^[a-zA-Z0-9]{1,12}$/', $code)) { die("Invalid Code"); }
 
@@ -133,6 +133,8 @@ Edit your Monetag or Adsterra keys in the script.
 Access your page at:
 
 https://yourdomain.infy.uk/?code=example123
+
+---
 
 👨‍💻 Maintainer
 
