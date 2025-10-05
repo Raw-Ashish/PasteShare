@@ -2,7 +2,7 @@
 
 # 📝 PasteShare Project
 
-**Main Domain:** [pastes.infy.uk](https://pastes.infy.uk)  
+**Main Domain:** [pasteshare.infy.uk](https://pasteshare.infy.uk)  
 **Used by Others:**  
 - [swpaste.free.nf](https://swpaste.free.nf)  
 - [swpaste.infy.uk](https://swpaste.infy.uk)
